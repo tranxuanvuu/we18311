@@ -1,0 +1,117 @@
+header{
+    background-image: url(anh/congtruong.jpg) ;
+    padding-bottom: 30%;
+    background-size: 100% 100%;
+}
+*{
+    margin: 0px;
+    padding: 1px;
+}
+body{
+    font-family: lato ;
+    color: black;
+}
+/* endheader+ csschung */
+nav{
+    height: 43px;
+    background: blue;
+    margin-bottom: -20px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 0 25px;
+    border-right: 1px solid gray;
+}
+nav ul li:hover{
+    background:red;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;system
+    font-family: roboto;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav.tk{
+    float: right;
+    line-height: 40px;
+}
+nav.tk input{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline:none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+}
+nav.tk button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: blue;
+    color: wheat;
+    margin-left: -5px;
+}
+/* endnav */
+.chuchay{
+    position: relative;
+    margin-bottom: 5px;
+}
+/* video hoan thien phan nay */
+aside{
+    float: left;
+    width: 300px;
+    border-left: 1px gray solid;
+}
+h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: blue;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px orangered;
+}
+.menudoc ul {
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+.menudoc ul li :hover{
+    background: red;
+}
+footer{
+    width: 100%;
+    clear: both;
+    background: blue;
+    color: white;
+}
+.ft1{
+    float: left;
+    margin-bottom: 10px;
+}
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+}
+.ft3{
+    width: 100%;
+    clear: both;
+    height: 40px;
+    background:black;
+}
+.ft3 p {
+     color: white;
+     font-size: 15px;
+     font-variant: small-caps;
+     text-align: center;
+}
+div.chuchay{
+    color: red;
+}
+
